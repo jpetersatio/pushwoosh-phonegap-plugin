@@ -44,7 +44,7 @@ function PushNotification() {}
 //	});
 //(end)
 PushNotification.prototype.onDeviceReady = function(success, fail, config) {
-	exec(null, null, "PushNotification", "onDeviceReady", config ? [config] : []);
+	exec(success, fail, "PushNotification", "onDeviceReady", config ? [config] : []);
 };
 
 //Function: registerDevice
