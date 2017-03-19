@@ -152,6 +152,9 @@
 			<string>$IOS_FOREGROUND_ALERT_TYPE</string>
 		</config-file>
 
+		<config-file parent="aps-environment" target="*/Entitlements-Debug.plist">
+			<string>development</string>
+		</config-file>
 		<config-file parent="aps-environment" target="*/Entitlements-Release.plist">
 			<string>development</string>
 		</config-file>
